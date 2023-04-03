@@ -1,7 +1,8 @@
 # autoplot
 Create matplotlib plots from language prompt (e.g. "create plot with x-axis time"). Experimental package.
 
-> warning: This package is experimental. The package can execute code output from language models and is thus to be used with care.
+> **warning**
+> This package is experimental. The package can execute code output from language models and is thus to be used with care.
 
 ## Installation
 
