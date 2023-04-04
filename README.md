@@ -22,6 +22,22 @@ aplt.plot("create plot with x-axis time")
 aplt.show()
 ```
 
+## Development
+
+### Setup
+
+1. Fork the repository
+
+2. Clone the repository
+    ````
+    git clone <yourforkpath>
+    ```
+
+3. Install the package in development mode
+    ```
+    pip install -e ".[dev]"
+    ```
+
 ## TODOs
 
 - [ ] Add sandboxing of code execution ([see here](https://stackoverflow.com/questions/3068139/how-can-i-sandbox-python-in-pure-python#3068475))
