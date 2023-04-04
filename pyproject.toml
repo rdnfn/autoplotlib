@@ -16,7 +16,14 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = [
+    "matplotlib",
+    "langchain",
+]
 
 [project.urls]
 "Homepage" = "https://github.com/rdnfn/autoplot"
 "Bug Tracker" = "https://github.com/rdnfn/autoplot/issues"
+
+[project.optional-dependencies]
+dev = ["pytest"]
