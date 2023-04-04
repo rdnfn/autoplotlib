@@ -43,7 +43,7 @@ def plot(
     else:
         data_description = f"The `data` variable is of type {type(data)}."
 
-    full_prompt = f"You are a Python programmer. Your job is to write Python code. Given a data set named `data`, please write Python code below to create a plot with matplotlib that satifies the following description: {prompt}. \n\n Note: you can assume that `data` is an existing variable that can be used. {data_description}. Remember to assume that `data` is an existing variable that can be used, do not copy the data explicitly. \n\n Python code (as markdown Python code block):"
+    full_prompt = f"You are a Python programmer. Your job is to write Python code. Given a data set named `data`, please write Python code below to create a plot with matplotlib that satifies the following description: '{prompt}'. \n\n Note: you can assume that `data` is an existing variable that can be used. {data_description}. Remember to assume that `data` is an existing variable that can be used, do reset the `data` variable. \n\n Python code (as markdown Python code block):"
 
     # setup LLM API access
     llm = langchain.llms.OpenAI(
