@@ -12,17 +12,35 @@ pip install autoplotlib
 
 ## Usage
 
-```
-import autoplotlib as aplt
-
+```python
 # set the OpenAI API key
 import os
 os.environ["OPENAI_API_KEY"] = <YOUR_API_KEY>
 
-data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+import autoplotlib as aplt
+import pandas as pd
 
-# Create a plot with x-axis time
-aplt.plot("create plot with x-axis time")
+# example dataframe
+data = pd.DataFrame(
+    [
+        [29, 177],
+        [33, 186],
+        [48, 161],
+        [53, 173],
+        [67, 152],
+    ],
+    index=["Alice", "Bob", "Charlie", "Dave", "Eve"],
+    columns=["age", "height"],
+)
+
+figure_description = """
+Plot the data as scatterplot between height and age.
+Add the names as labels next to the data points.
+Ensure the labels don't overlap.
+Mark people taller than 170 with a star instead of a point.
+"""
+
+code, fig, llm_response = aplt.plot(figure_description, data=data)
 ```
 
 ## Development
