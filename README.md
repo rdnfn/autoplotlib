@@ -1,5 +1,6 @@
 # autoplotlib
-Create matplotlib plots from language prompt (e.g. "create plot with x-axis time"). Experimental package.
+
+Single-line plotting from text description in Python. With *autoplotlib* you can easily create matplotlib plots from a language prompt (e.g. "create plot with x-axis time") inside a jupyter notebook or Python script. Experimental package.
 
 > **Warning**
 > This package is experimental. The package can execute code output from language models and is thus to be used with care.
