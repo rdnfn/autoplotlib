@@ -1,3 +1,5 @@
+<img src="./docs/autoplotlib_logo.png" width="200" />
+
 # autoplotlib
 
 Single-line plotting from text description in Python. With *autoplotlib* you can easily create matplotlib plots from a language prompt (e.g. "create plot with x-axis time") inside a jupyter notebook or Python script. Experimental package.
