@@ -15,11 +15,14 @@ pip install autoplotlib
 ```
 import autoplotlib as aplt
 
+# set the OpenAI API key
+import os
+os.environ["OPENAI_API_KEY"] = <YOUR_API_KEY>
+
 data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # Create a plot with x-axis time
 aplt.plot("create plot with x-axis time")
-aplt.show()
 ```
 
 ## Development
