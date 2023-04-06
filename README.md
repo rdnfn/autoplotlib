@@ -1,4 +1,6 @@
+<p align="center">
 <img src="./docs/autoplotlib_logo.png" width="200" />
+</p>
 
 # autoplotlib
 
