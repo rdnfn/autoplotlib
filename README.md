@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./docs/autoplotlib_logo.png" width="200" />
+<img src="./docs/autoplotlib_logo.png" width="250" />
 </p>
 
 # autoplotlib
