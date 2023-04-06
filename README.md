@@ -29,14 +29,14 @@ aplt.plot("create plot with x-axis time")
 
 ### Setup
 
-1. Fork the repository
+1. Fork the repository.
 
-2. Clone the repository
-    ````
+2. Clone the repository:
+    ```
     git clone <yourforkpath>
     ```
 
-3. Install the package in development mode
+3. Install the package in development mode:
     ```
     pip install -e ".[dev]"
     ```
