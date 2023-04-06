@@ -15,7 +15,7 @@ pip install autoplotlib
 ```python
 # set the OpenAI API key
 import os
-os.environ["OPENAI_API_KEY"] = <YOUR_API_KEY>
+os.environ["OPENAI_API_KEY"] = "<YOUR_API_KEY>"
 
 import autoplotlib as aplt
 import pandas as pd
