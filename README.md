@@ -43,6 +43,8 @@ Mark people taller than 170 with a star instead of a point.
 code, fig, llm_response = aplt.plot(figure_description, data=data)
 ```
 
+![example output](./docs/autoplotlib_demo.gif)
+
 ## Development
 
 ### Setup
