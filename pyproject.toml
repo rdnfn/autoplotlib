@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "autoplot"
+name = "autoplotlib"
 version = "0.1.0"
 authors = [
   { name="rdnfn", email="info@arduin.io" },
@@ -22,8 +22,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/rdnfn/autoplot"
-"Bug Tracker" = "https://github.com/rdnfn/autoplot/issues"
+"Homepage" = "https://github.com/rdnfn/autoplotlib"
+"Bug Tracker" = "https://github.com/rdnfn/autoplotlib/issues"
 
 [project.optional-dependencies]
 dev = ["pytest"]

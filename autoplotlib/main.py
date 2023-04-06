@@ -1,4 +1,4 @@
-# main module of autoplot
+# main module of autoplotlib
 
 import langchain.chat_models
 import langchain.schema

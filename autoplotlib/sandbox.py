@@ -22,7 +22,7 @@ def run(code: str, global_vars: dict = None, local_vars: dict = None):
             (event == "open" and arg[1] != "r")
             or event.split(".")[0] in ["subprocess", "os", "shutil", "winreg"]
         ):
-            raise IOError("File write is forbidden by autoplot sandbox.")
+            raise IOError("File write is forbidden by autoplotlib sandbox.")
 
     addaudithook(block_mischief)
 

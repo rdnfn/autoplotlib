@@ -1,4 +1,4 @@
-# autoplot
+# autoplotlib
 Create matplotlib plots from language prompt (e.g. "create plot with x-axis time"). Experimental package.
 
 > **Warning**
@@ -7,13 +7,13 @@ Create matplotlib plots from language prompt (e.g. "create plot with x-axis time
 ## Installation
 
 ```
-pip install autoplot
+pip install autoplotlib
 ```
 
 ## Usage
 
 ```
-import autoplot as aplt
+import autoplotlib as aplt
 
 data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
