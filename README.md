@@ -1,8 +1,8 @@
 <p align="center">
-<img src="./docs/autoplotlib_logo.png" width="250" />
+<img src="https://raw.githubusercontent.com/rdnfn/autoplotlib/main/docs/autoplotlib_logo.png" width="250" />
 </p>
 
-# autoplotlib
+[![PyPI version](https://badge.fury.io/py/autoplotlib.svg)](https://pypi.org/project/autoplotlib/)
 
 *Quickly generate plots in Python by simply describing them through text.* For example, simply use the prompt "create a scatter plot with name labels" instead endlessly searching the docs and stackoverflow. Given such a prompt, the `autoplotlib` Python library uses the OpenAI API to automatically generate the corresponding code and plot - saving you time and effort.
 
@@ -47,7 +47,7 @@ Mark people taller than 170 with a star instead of a point.
 code, fig, llm_response = aplt.plot(figure_description, data=data)
 ```
 
-<img src="./docs/autoplotlib_demo.gif" width="690" />
+<img src="https://raw.githubusercontent.com/rdnfn/autoplotlib/main/docs/autoplotlib_demo.gif" width="690" />
 
 ## Development
 
