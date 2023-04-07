@@ -65,7 +65,7 @@ code, fig, llm_response = aplt.plot(figure_description, data=data)
     pip install -e ".[dev]"
     ```
 
-## TODOs
+## Potential future features
 
 - [ ] Add sandboxing of code execution ([see here](https://stackoverflow.com/questions/3068139/how-can-i-sandbox-python-in-pure-python#3068475))
 
