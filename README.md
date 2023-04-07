@@ -29,7 +29,6 @@ os.environ["OPENAI_API_KEY"] = "<YOUR_API_KEY>"
 import autoplotlib as aplt
 import pandas as pd
 
-# example dataframe
 data = pd.DataFrame(
     [[29, 177], [33, 186], [48, 161], [53, 173], [67, 152]],
     index=["Alice", "Bob", "Charlie", "Dave", "Eve"],
