@@ -21,6 +21,8 @@
 
 ## Usage
 
+The following is an example of plotting a pandas dataframe using the `autoplotlib` library. The `plot()` function takes a prompt describing the plot and the data to plot. The function returns the plot, the generated code, and the full response from the OpenAI API.
+
 ```python
 # set the OpenAI API key
 import os
