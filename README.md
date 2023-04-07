@@ -49,21 +49,9 @@ code, fig, llm_response = aplt.plot(figure_description, data=data)
 
 <img src="https://raw.githubusercontent.com/rdnfn/autoplotlib/main/docs/autoplotlib_demo.gif" width="690" />
 
-## Development
+## Contributing
 
-### Setup
-
-1. Fork the repository.
-
-2. Clone the repository:
-    ```
-    git clone <yourforkpath>
-    ```
-
-3. Install the package in development mode:
-    ```
-    pip install -e ".[dev]"
-    ```
+See the [development guide](github.com/rdnfn/autoplotlib/docs/dev_guide.md) for information about contributing.
 
 ## Potential future features
 
