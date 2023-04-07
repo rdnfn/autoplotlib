@@ -8,7 +8,7 @@ version = "0.1.0"
 authors = [
   { name="rdnfn", email="info@arduin.io" },
 ]
-description = "Single-line plots from language prompt in Python."
+description = "Quickly generate plots in Python by simply describing them through text."
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
