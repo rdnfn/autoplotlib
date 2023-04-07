@@ -28,4 +28,4 @@ dependencies = [
 "Bug Tracker" = "https://github.com/rdnfn/autoplotlib/issues"
 
 [project.optional-dependencies]
-dev = ["pytest"]
+dev = ["pytest","bump2version"]
