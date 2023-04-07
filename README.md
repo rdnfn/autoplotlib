@@ -51,7 +51,7 @@ code, fig, llm_response = aplt.plot(figure_description, data=data)
 
 ## Contributing
 
-See the [development guide](github.com/rdnfn/autoplotlib/docs/dev_guide.md) for information about contributing.
+See the [development guide](https://github.com/rdnfn/autoplotlib/blob/main/docs/dev_guide.md) for information about contributing.
 
 ## Potential future features
 
