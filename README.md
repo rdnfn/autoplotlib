@@ -31,13 +31,7 @@ import pandas as pd
 
 # example dataframe
 data = pd.DataFrame(
-    [
-        [29, 177],
-        [33, 186],
-        [48, 161],
-        [53, 173],
-        [67, 152],
-    ],
+    [[29, 177], [33, 186], [48, 161], [53, 173], [67, 152]],
     index=["Alice", "Bob", "Charlie", "Dave", "Eve"],
     columns=["age", "height"],
 )
